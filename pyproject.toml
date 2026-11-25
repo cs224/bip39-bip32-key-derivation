@@ -1,0 +1,15 @@
+[project]
+name = "bip39-bip32-key-derivation"
+version = "0.1.0"
+description = "BIP-39 and BIP-32 key derivation notebooks and wallet-address experiments."
+requires-python = ">=3.12"
+dependencies = [
+    "bip-utils==2.12.3",
+    "coincurve==21.0.0",
+    "notebook>=7,<8",
+    "nbclassic>=1,<2",
+    "watermark>=2,<3",
+]
+
+[tool.uv]
+cache-dir = "./.uv-cache"
